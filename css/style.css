@@ -8,6 +8,7 @@ body {
     background: #ECEEF1;
     font-family: Arial, sans-serif;
     font-weight: 400;
+    overflow: hidden;
 }
 
 header {
@@ -92,7 +93,7 @@ main {
     border: 1px solid #C1C5C8;
     border-radius: 1px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
 }
 
@@ -147,7 +148,11 @@ main label, main label span {
 }
 
 main label {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+main label:nth-child(3){
+    padding-bottom: 15px;
 }
 
 main label span {
@@ -176,8 +181,8 @@ main label input {
     color: #C1C5C8;
 }
 main .captcha {
-    margin-left: -30px;
-    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-bottom: -20px;
     background-color: #ECEEF1;
     padding: 16px;
     font-size: 10px;
