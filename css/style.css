@@ -22,6 +22,9 @@ header {
     padding: 10px 30px;
     white-space: nowrap;
 }
+.mob-signin {
+    display: none;
+}
 
 .signIn>div>div {
     color: #505050;
@@ -58,16 +61,30 @@ li {
 
 .companyName ul {
     display: flex;
+    margin: 0 0 19px;
 }
 
 .companyName ul li img {
     width: 23px;
     height: 23px;
+    margin-right: 4px;
+    
 }
-
-/* .companyName ul li a{
-    height: 23px;
-} */
+.companyName li {
+   display: flex;
+   align-items: center;
+}
+.companyName>img {
+    padding: 20px 0;
+}
+.companyName {
+    text-align: center;
+}
+.companyName ul li a{
+    margin-right: 9px;
+    color:#8E9197;
+    font-size: 1.2rem;
+}
 
 main {
     max-width: 380px;
@@ -87,6 +104,7 @@ main>div h2 {
     color: #4c4c4c;
     font-size: 24px;
     line-height: 1.1;
+    font-weight: lighter;
 }
 
 .subTitle {
@@ -144,9 +162,19 @@ main label input {
     height: 34px;
     padding: 0 6px;
     border-radius: 5px;
-    border: 1px solid #C1C5C8
+    border: 1px solid #C1C5C8;
 }
-
+.tel-condition {
+    font-size: 10px;
+    color: #444444;
+    padding: 5px 0;
+}
+.fa-lock-open {
+    position: relative;
+    left: 290px;
+    top: -25px;
+    color: #C1C5C8;
+}
 main .captcha {
     margin-left: -30px;
     margin-bottom: -30px;
@@ -187,4 +215,12 @@ footer ul a {
 
 footer ul a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width:768px){
+    .signIn{
+        display: none;
+    }
+    .mob-signin {
+        display: block;
+    }
 }

@@ -22,7 +22,7 @@
             </div>
         </section>
         <section class="companyName">
-            <img src=".dd/img/ecosystem_logos_new.png">
+            <img src="./img/rz_ecosystem_logos_new.png">
             <ul>
                 <li><img src="img/mint-favicon.svg" alt=""><a href="#"> mint</a></li>
                 <li><img src="img/quickbooks-favicon@2x.svg" alt=""><a href="#">quickbooks</a></li>
@@ -37,7 +37,11 @@
                 One account for everything Intuit, including Mint.
                 <br>
                 <a href="#">Learn more</a>
+                <div class="mob-signin">
+                    Already have an account? <a href="#">Sign In</a>
+                </div>
             </div>
+            
         </div>
         <form action="#">
             <fieldset>
@@ -52,10 +56,12 @@
                 <label>
                     <span>Phone (recommended)</span>
                     <input type="tel" id="tel" name="tel">
+                    <span class="tel-condition">Standard call, messaging or data rates may apply.</span>
                 </label>
                 <label>
                     <span>Password</span>
                     <input type="password" name="password" id="password">
+                    <i class="fas fa-lock-open"></i>
                 </label>
             </fieldset>
 
