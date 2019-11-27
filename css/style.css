@@ -8,7 +8,7 @@ body {
     background: #ECEEF1;
     font-family: Arial, sans-serif;
     font-weight: 400;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 header {
@@ -20,8 +20,10 @@ header {
 .signIn {
     display: flex;
     align-self: flex-end;
+    align-items: center;
     padding: 10px 30px;
     white-space: nowrap;
+    line-height: 1.5;
 }
 .mob-signin {
     display: none;
@@ -35,7 +37,7 @@ header {
 
 .signIn div button {
     background-color: #0077C5;
-    border: 1px solid black;
+    border: 1px solid #4c4c4c;
     width: 102px;
     height: 34px;
     padding: 0 20px;
@@ -76,7 +78,7 @@ li {
    align-items: center;
 }
 .companyName>img {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .companyName {
     text-align: center;
@@ -91,7 +93,7 @@ main {
     max-width: 380px;
     margin: auto;
     border: 1px solid #C1C5C8;
-    border-radius: 1px;
+    border-radius: 2px;
     text-align: center;
     padding: 20px;
     background-color: white;
@@ -139,7 +141,7 @@ form .terms {
     color: #757575;
     line-height: 1.5;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 main label, main label span {
@@ -184,13 +186,12 @@ main .captcha {
     margin-left: -20px;
     margin-bottom: -20px;
     background-color: #ECEEF1;
-    padding: 16px;
+    padding: 10px;
     font-size: 10px;
     color: #8d9096;
     width: 378px;
-    height: 62px;
-    padding-top: 25px;
-    ;
+    height: 50px;
+    padding-top: 20px;
 }
 
 fieldset {
@@ -202,7 +203,7 @@ fieldset {
 footer {
     text-align: center;
     margin: 0 47px 0 47px;
-    padding: 20px 0;
+    padding: 25px 0;
     font-size: 12px;
     color: #505050;
     line-height: 1.5;
