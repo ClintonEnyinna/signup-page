@@ -39,7 +39,7 @@ main > div {
   text-align: center;
 }
 
-form button {
+.submitBtn {
   color: white;
   background-color: #0077c5;
   width: 100%;
@@ -47,6 +47,7 @@ form button {
   white-space: nowrap;
   font-size: 16px;
   border-radius: 5px;
+  border: none;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
   margin-bottom: 36px;
 }
